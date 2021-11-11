@@ -65,9 +65,10 @@ body{
 .logo{
           float: left;
           color: silver;
-          padding-left: 10px;          90rflow: hidden;        9x-w;
+          padding-left: 10px;
+          float: hidden;
           border-radius: 10px;
-        dth: 100px;
+          width: 100px;
           max-height: 65px;
 }
 
@@ -79,6 +80,10 @@ body{
           animation-name: hanafy;
           animation-duration: 3s;
           animation-iteration-count: infinite;
+}
+
+.logo div input {
+  background-color: burlywood;
 }
 
 @keyframes hanafy {
