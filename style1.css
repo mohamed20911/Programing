@@ -33,7 +33,7 @@ body{
           padding: initial 20px;
           font-size: 1em;
           text-align: center;
-          height: 10%;
+          height: 15%;
 }
 
 
@@ -62,17 +62,17 @@ body{
     font-size: 1.2em;
     text-align: center;
 } */
-.logo{
+#logo{
           float: left;
           color: silver;
           padding-left: 10px;
           float: hidden;
           border-radius: 10px;
-          width: 100px;
-          max-height: 65px;
+          width: 130px;
+          max-height: 100px;
 }
 
-.logo div {
+#logo div {
           width: 20px;
           height: 100px;
           background-color: red;
@@ -82,7 +82,7 @@ body{
           animation-iteration-count: infinite;
 }
 
-.logo div input {
+#logo div input {
   background-color: burlywood;
 }
 
